@@ -41,7 +41,7 @@ rl.question(text, resolve)
   })
 };
 
-const usePairingCode = true
+const usePairingCode = false
 //=================================================//
 global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
 global.db = new Low(
